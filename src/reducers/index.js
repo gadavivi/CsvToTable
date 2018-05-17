@@ -1,7 +1,8 @@
 import { combineReducers } from 'redux';
+import LambdaListToTableReducer from './LambdaListToTableReducer';
 
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+  LambdaListTable : LambdaListToTableReducer
 });
 
 export default rootReducer;

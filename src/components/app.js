@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
+import ListLambdaUpload from './ListLambdaUpload';
+import { Container } from 'semantic-ui-react';
 
 export default class App extends Component {
   render() {
     return (
-      <div>React simple starter</div>
+      <Container textAlign='center'>
+        <ListLambdaUpload />
+      </Container>
     );
   }
 }
