@@ -1,7 +1,7 @@
-# CsvToTable#
+# CsvToTable
 
-This app let generte a table from a given CSV.
-The app let you filtering and sorting by over the table data.
+This app let you generte a table from a given CSV.
+The app let you filter and sort the table data.
 
 ### Getting Started
 
