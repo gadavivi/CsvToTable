@@ -23,7 +23,6 @@ export const lambda_list_to_table = (matrix) => {
     const headers = matrix[0]
     matrix.shift();
     if (validateCsv(matrix, headers)) {
-        console.log(matrix);
         return {
             type: LAMBDA_LIST_FILE_UPLOAD,
             payload: { headers, matrix }
