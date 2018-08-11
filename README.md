@@ -5,7 +5,7 @@ The app let you filter and sort the table data.
 
 ### Getting Started
 
-To run this app locally, Checkout this repo, install dependencies, then start the gulp process with the following:
+To run this app, Checkout this repo, install dependencies, then start the gulp process with the following:
 
 ```
 > git clone https://github.com/gadavivi/CsvToTable.git
